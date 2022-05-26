@@ -22,9 +22,11 @@ export function getGlobalPaletteInfo(
   if (unpackedField[0]) {
     const globalPaletteSize = getPaletteSize(unpackedField);
     gifInfo.globalPalette = true;
+    // 计算全局调色板的大小
     gifInfo.globalPaletteSize = globalPaletteSize / 3;
     // 调整指针位置
     pos += globalPaletteSize;
+    // 遍历获取此块区域的所有颜色并存起来
     for (let i = 0; i < gifInfo.globalPaletteSize; i++) {
       const palettePos = 13 + i * 3;
       const r = dataView.getUint8(palettePos);

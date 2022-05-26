@@ -54,7 +54,9 @@ export default class GifParser {
       throw new Error("未找到GIF解析源, 请检查参数是否正确传入");
     }
 
-    // 不解析GIF8格式的图像
+    // 只解析GIF8格式的图像:使用getUint16获取2个字节十六进制值，判断它是否满足Gif格式的Header块的签名与版本号
+    // 47 49 为签名信息，转换为Unicode编码为：G I
+    // 46 38 为版本信息，转换为Unicode编码为：F 8
     if (
       this.dataView.getUint16(0) != 0x4749 ||
       this.dataView.getUint16(2) != 0x4638
