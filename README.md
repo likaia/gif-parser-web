@@ -1,4 +1,4 @@
-# gif-parser-web · [![npm](https://img.shields.io/badge/npm-v1.0.3-2081C1)](https://www.npmjs.com/package/js-web-screen-shot) [![yarn](https://img.shields.io/badge/yarn-v1.0.3-F37E42)](https://yarnpkg.com/package/js-web-screen-shot) [![github](https://img.shields.io/badge/GitHub-depositary-9A9A9A)](https://github.com/likaia/gif-parser-web) [![](https://img.shields.io/github/issues/likaia/gif-parser-web)](https://github.com/likaia/gif-parser-web/issues) [![](	https://img.shields.io/github/forks/likaia/gif-parser-web)](``https://github.com/likaia/gif-parser-web/network/members) [![](	https://img.shields.io/github/stars/likaia/gif-parser-web)](https://github.com/likaia/gif-parser-web/stargazers)
+# gif-parser-web · [![npm](https://img.shields.io/badge/npm-v1.0.5-2081C1)](https://www.npmjs.com/package/gif-parser-web) [![yarn](https://img.shields.io/badge/yarn-v1.0.5-F37E42)](https://yarnpkg.com/package/gif-parser-web) [![github](https://img.shields.io/badge/GitHub-depositary-9A9A9A)](https://github.com/likaia/gif-parser-web) [![](https://img.shields.io/github/issues/likaia/gif-parser-web)](https://github.com/likaia/gif-parser-web/issues) [![](	https://img.shields.io/github/forks/likaia/gif-parser-web)](``https://github.com/likaia/gif-parser-web/network/members) [![](	https://img.shields.io/github/stars/likaia/gif-parser-web)](https://github.com/likaia/gif-parser-web/stargazers)
 
 ## 写在前面
 关于此插件的更多介绍以及实现原理请移步👉：[JS获取GIF总帧数](https://www.kaisir.cn/post/142)
@@ -45,7 +45,7 @@ gifInfo.then((res)=>{
 ```
 > 注意⚠️：GitHub中是不会上传dist目录的，你想要自己将项目clone到本地，编译得到dist文件夹。
 > 
->当然，你也可以直接下载[gifParserPlugin.umd.js](https://unpkg.com/gif-parser-web@1.0.3/dist/gifParserPlugin.umd.js)文件来使用
+>当然，你也可以直接下载[gifParserPlugin.umd.js](https://unpkg.com/gif-parser-web@1.0.5/dist/gifParserPlugin.umd.js)文件来使用
 
 
 ## 写在最后
