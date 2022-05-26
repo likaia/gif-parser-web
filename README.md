@@ -45,7 +45,7 @@ gifInfo.then((res)=>{
 ```
 > 注意⚠️：GitHub中是不会上传dist目录的，你想要自己将项目clone到本地，编译得到dist文件夹。
 > 
->当然，你也可以直接下载[gifParserPlugin.umd.js](https://unpkg.com/gif-parser-web@1.0.2/dist/gifParserPlugin.umd.js)文件来使用
+>当然，你也可以直接下载[gifParserPlugin.umd.js](https://unpkg.com/gif-parser-web@1.0.3/dist/gifParserPlugin.umd.js)文件来使用
 
 
 ## 写在最后
