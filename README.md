@@ -1,5 +1,4 @@
-# gif-parser-web · [![npm](https://img.shields.io/badge/npm-v1.0.1-2081C1)](https://www.npmjs.com/package/js-web-screen-shot) [![yarn](https://img.shields.io/badge/yarn-v1.0.1-F37E42)](https://yarnpkg.com/package/js-web-screen-shot) [![github](https://img.shields.io/badge/GitHub-depositary-9A9A9A)](https://github.com/likaia/gif-parser-web) [![](https://img.shields.io/github/issues/likaia/gif-parser-web)](https://github.com/likaia/gif-parser-web/issues) [![](	https://img.shields.io/github/forks/likaia/gif-parser-web)](``https://github.com/likaia/gif-parser-web/network/members) [![](	https://img.shields.io/github/stars/likaia/gif-parser-web)](https://github.com/likaia/gif-parser-web/stargazers)
-web端自定义截屏插件(原生JS版)，运行视频：[实现web端自定义截屏功能](https://www.bilibili.com/video/BV1Ey4y127cV) ,效果图如下：![截屏效果图](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/486d810877a24582aa8cf110e643c138~tplv-k3u1fbpfcp-watermark.image)
+# gif-parser-web · [![npm](https://img.shields.io/badge/npm-v1.0.3-2081C1)](https://www.npmjs.com/package/js-web-screen-shot) [![yarn](https://img.shields.io/badge/yarn-v1.0.3-F37E42)](https://yarnpkg.com/package/js-web-screen-shot) [![github](https://img.shields.io/badge/GitHub-depositary-9A9A9A)](https://github.com/likaia/gif-parser-web) [![](https://img.shields.io/github/issues/likaia/gif-parser-web)](https://github.com/likaia/gif-parser-web/issues) [![](	https://img.shields.io/github/forks/likaia/gif-parser-web)](``https://github.com/likaia/gif-parser-web/network/members) [![](	https://img.shields.io/github/stars/likaia/gif-parser-web)](https://github.com/likaia/gif-parser-web/stargazers)
 
 ## 写在前面
 关于此插件的更多介绍以及实现原理请移步👉：[JS获取GIF总帧数](https://www.kaisir.cn/post/142)
@@ -46,7 +45,7 @@ gifInfo.then((res)=>{
 ```
 > 注意⚠️：GitHub中是不会上传dist目录的，你想要自己将项目clone到本地，编译得到dist文件夹。
 > 
->当然，你也可以直接下载[gifParserPlugin.umd.js](https://unpkg.com/gif-parser-web@1.0.1/dist/gifParserPlugin.umd.js)文件来使用
+>当然，你也可以直接下载[gifParserPlugin.umd.js](https://unpkg.com/gif-parser-web@1.0.2/dist/gifParserPlugin.umd.js)文件来使用
 
 
 ## 写在最后
